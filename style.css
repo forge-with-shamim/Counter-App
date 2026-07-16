@@ -4,67 +4,105 @@ body{
     height: 100vh;
     align-items: center;
     justify-content: center;
+    background-color: #141c2e;
 
 }
 h1{
     font-weight: 900;
-    color: #1E3A8A;
+    font-size: 40px;
+    color: #F8FAFC;
+    margin: 0px;
     
 }
- p.count {
-    font-weight: 900;
-    color: #1E3A8A;
-    /* border:solid  black 5px;
-    padding: 25px;
-    border-radius: 50%;
-    background-color: blue; */
+
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+#btn{
+    font-size: 70px;
+    margin: 0px;
+}
+ .count {
+    font-weight: 450;
+    color: #94A3B8;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0px;
+
+}
+h3{
+    margin: 0px;
+    color: #F8FAFC;
+}
+
 .maincontainer {
     display: flex;
-    /* flex-direction: column; */
-    /* align-items: center; */
-    justify-content: space-around;
-    background-color: #EFF6FF;
-    padding: 20px;
-    height: 350px;
-    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    background-color: #1E293B;
+    padding: 15px 5px;
+    height: 430px;
+    width: 400px;
     border-radius: 20px;
-    /* box-shadow: lightslategray 5px 5px; */
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-    transition: transform 0.4s;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    border: solid black thin ;
 }
-.box{
+.buttons{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 24px;
+    margin: 15px;
+
+
 }
-.container{
+.pairBtn{
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: space-evenly;
-    /* border: solid 5px red; */
-    padding: 20px;
-    width: 250px;
-    background-color: light;
+    width: 400px
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.3s;
     
 }
-button{
-    background-color:3B82F6;
-    color: 1E3A8A;
-    /* border: none; */
-    width: 120px;
-    border-radius: 20px;
-    padding: 10px;
-}
-button#btn{
-    padding: 15px;
-}
-.maincontainer:hover{
-    transform: scale(1.04);
-}
 button:hover{
-    background-color: blue;
-    color: white;
+    transform: scale(1.02);
 }
+.increment{
+    background-color: #22C55E;
+   
+}
+.increment:hover{
+    background-color: darkgreen;
+   
+
+}
+.decrement{
+    background-color: #EF4444;
+   
+}
+.decrement:hover{
+    background-color: darkred;
+  
+}
+.reset{
+    background-color: #64748B;
+    
+}
+.reset:hover{
+    background-color: darkgrey;
+}
+

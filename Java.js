@@ -2,7 +2,6 @@ let count = 0;
 let incrementBttn = document.querySelector("#increment");
 
 let result = document.querySelector("#btn")
-let display = document.querySelector("#maincontainer");
 
 incrementBttn.addEventListener("click", function (){
     console.log("button is clicked");
@@ -12,7 +11,7 @@ incrementBttn.addEventListener("click", function (){
         result.style.color = "green"
     }
      else if ( count == 0 ){
-        result.style.color = "blue"
+        result.style.color = "black"
     }
     
    
@@ -30,8 +29,8 @@ decrementBtn.addEventListener("click", function(){
 let resetBtn = document.querySelector("#reset");
 resetBtn.addEventListener("click", function(){
     count = 0
-   
     result.innerText = count;
+    result.style.color = "black"
     
 })
 // let button = document.querySelector("#maincontainer")
