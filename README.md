@@ -6,15 +6,25 @@ A simple and responsive Counter Application built using HTML, CSS, and JavaScrip
 
 ## ✨ Features
 
-- Increase the counter value
-- Decrease the counter value
+- Increase the counter
+- Decrease the counter
 - Reset the counter to zero
-- Dynamic counter value updates
-- Color changes based on counter value (Positive, Negative, Zero)
-- Modern dark-themed user interface
-- Responsive card-based layout
-- Interactive button hover effects
-- Built with clean HTML, CSS, and JavaScript
+- Dynamic color change based on counter value
+- Smooth pop animation on counter update
+- Keyboard controls:
+  - Arrow Up to increase
+  - Arrow Down to decrease
+  - Spacebar to reset
+- Local Storage support to save the counter value
+- Counter value persists after page refresh
+- Clean and responsive user interface
+
+---
+## Keyboard Controls
+
+- ↑ Arrow Up — Increase counter
+- ↓ Arrow Down — Decrease counter
+- Spacebar — Reset counter
 
 ---
 
@@ -23,6 +33,21 @@ A simple and responsive Counter Application built using HTML, CSS, and JavaScrip
 - HTML5
 - CSS3
 - JavaScript (DOM Manipulation)
+
+---
+
+## What I Learned
+
+- DOM element selection using `querySelector()`
+- Handling click and keyboard events using `addEventListener()`
+- Creating reusable JavaScript functions
+- Updating the UI dynamically
+- Using CSS animations and `@keyframes`
+- Saving and loading data using Local Storage
+- Understanding `setItem()` and `getItem()`
+- Converting Local Storage strings into numbers using `Number()`
+- Basic code refactoring and avoiding repeated code
+- Debugging JavaScript and browser default behavior
 
 ---
 
@@ -50,8 +75,6 @@ Counter-App/
 ---
 
 ## 📸 Preview
-
-_Add a screenshot of the project here._
 
 ![Counter App Preview](assets/counter-app.png)
 
