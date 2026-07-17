@@ -76,7 +76,7 @@ Counter-App/
 
 ## 📸 Preview
 
-![Counter App Preview](assets/counter-app.png)
+![Counter App Preview](assets/counter-app v2.png)
 
 ## 🎯 Future Improvements
 
