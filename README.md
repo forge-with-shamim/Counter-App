@@ -76,14 +76,11 @@ Counter-App/
 
 ## 📸 Preview
 
-![Counter App Preview](assets/counter-app v2.png)
+![Counter App Preview](assets/counter-app-v2.png)
 
 ## 🎯 Future Improvements
 
-- Add smooth counter animations
 - Add Light/Dark mode toggle
-- Add keyboard shortcuts
-- Store counter value using Local Storage
 - Improve accessibility
 
 ---
